@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F0F2F5;
+    font-size: 18px;
+
+}
+
+.home-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.child-home{
+    flex-basis: 45%;
+}
+
+.child-home h1{
+    color: #166FE5;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.child-home p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.login-box {
+    flex-basis: 40%;
+}
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 14px 0px #cbc7c7;
+}
+
+
+.login-box form input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 185, 185);
+    font-size: 18px;
+}
+
+.login-box form input[type='submit']{
+    border: 1px solid #166FE5;
+    background: #166FE5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-box form input[type='submit']:hover{
+    background: #1364ce;
+}
+
+.login-box form a{
+    justify-self: center;
+    display: block;
+    border-bottom: 1px solid #cecece;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(22, 143, 190);
+    font-size: 16px;
+}
+
+.creat-account{
+    background: #36A420;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border: 1px solid #36A420;
+    border-radius: 5px;
+
+}
+
+.creat-account:hover{
+    background:rgb(45, 138, 27)0
+}
+
+.login-box p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.login-box p a{
+    font-weight: 700;
+    color: #000;
+}
